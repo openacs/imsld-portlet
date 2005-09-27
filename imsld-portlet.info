@@ -7,11 +7,11 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
     
-    <version name="0.1d" url="http://openacs.org/repository/download/apm/imsld-portlet-0.1d1.apm">
+    <version name="0.1d" url="http://openacs.org/repository/download/apm/imsld-portlet-0.1d.apm">
         <owner url="mailto:eperez@it.uc3m.es">Eduardo Pérez Ureta</owner>
         <release-date>2005-09-27</release-date>
 
-        <provides url="imsld-portlet" version="0.2d1"/>
+        <provides url="imsld-portlet" version="0.1d"/>
         <requires url="imsld" version="0.1d"/>
 
         <callbacks>
