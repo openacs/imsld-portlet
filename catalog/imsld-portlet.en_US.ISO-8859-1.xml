@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <message_catalog package_key="imsld-portlet" package_version="0.1d" locale="en_US" charset="ISO-8859-1">
 
+  <msg key="imsld_add">Add an IMS Learning Design</msg>
   <msg key="units-of-learning_admin">Units of Learning Administration</msg>
 </message_catalog>
