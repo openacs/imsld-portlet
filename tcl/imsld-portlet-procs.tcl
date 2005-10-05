@@ -32,7 +32,7 @@ ad_proc -private imsld_portlet::my_package_key {
 
 ad_proc -public imsld_portlet::get_pretty_name {
 } {
-    return "#imsld.imsld#"
+    return "#imsld.units-of-learning#"
 }
 
 
@@ -108,7 +108,7 @@ ad_proc -private imsld_admin_portlet::get_my_name {} {
 
 
 ad_proc -public imsld_admin_portlet::get_pretty_name {} {
-    return "#imsld.imsld_Administration#"
+    return "#imsld.units-of-learning_Administration#"
 }
 
 
