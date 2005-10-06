@@ -11,7 +11,7 @@
   </blockquote>
  </if>
  <else>
-  <# There are no units of learning for this course. #>
+  #imsld-portlet.There_are_no_units-of-learning_for_this_course#.
  </else>
  </if>
 <else>
