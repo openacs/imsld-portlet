@@ -32,7 +32,6 @@ if { ![empty_string_p $community_id] } {
         and cr2.live_revision = ico.organization_id
         and cr3.live_revision = imsld.imsld_id
     } {
-        ns_log notice "vamos!!!!! \n"
     }
 } else {
     # not implemented!
