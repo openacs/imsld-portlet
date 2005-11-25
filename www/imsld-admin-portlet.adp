@@ -1,3 +1,3 @@
 <ul>
-  <li><a href="@url@admin/imsld-new">#imsld-portlet.units-of-learning_admin#</a>
+  <li><a href="@url@admin/index">#imsld-portlet.units-of-learning_admin#</a>
 </ul>
