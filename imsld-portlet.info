@@ -10,6 +10,7 @@
     <version name="0.1d" url="http://openacs.org/repository/download/apm/imsld-portlet-0.1d.apm">
         <owner url="mailto:eperez@it.uc3m.es">Eduardo Pérez Ureta</owner>
         <release-date>2005-09-27</release-date>
+        <maturity>0</maturity>
 
         <provides url="imsld-portlet" version="0.1d"/>
         <requires url="imsld" version="0.1d"/>
@@ -19,7 +20,10 @@
             <callback type="before-uninstall"  proc="apm::imsld_portlet::before_uninstall"/>
         </callbacks>
         <parameters>
-        <!-- No version parameters -->
+            <parameter datatype="number"  min_n_values="1"  max_n_values="1"  name="TimeLimitIntervalCheck"  default="0" description="Every TimeLimitIntervalCheck SECONDS the system will search for the activities (methods, plays, acts) whose time-limit has been elapsed and will mark them as finished 
+
+Leave this parameter in 0 if you don't want this feature enabled (the time-limit in the spec will be ignored)
+"/>
         </parameters>
 
     </version>
