@@ -16,4 +16,3 @@ set shaded_p $config(shaded_p)
 set list_of_package_ids [lsort $config(package_id)]
 set one_instance_p [ad_decode [llength $list_of_package_ids] 1 1 0]
 
-set community_id [dotlrn_community::get_community_id]
