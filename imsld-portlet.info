@@ -7,19 +7,20 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
     
-    <version name="0.1d" url="http://openacs.org/repository/download/apm/imsld-portlet-0.1d.apm">
+    <version name="0.2d" url="http://openacs.org/repository/download/apm/imsld-portlet-0.2d.apm">
         <owner url="mailto:eperez@it.uc3m.es">Eduardo Pérez Ureta</owner>
-        <release-date>2005-09-27</release-date>
+        <release-date>2007-04-12</release-date>
         <maturity>0</maturity>
 
-        <provides url="imsld-portlet" version="0.1d"/>
-        <requires url="imsld" version="0.1d"/>
+        <provides url="imsld-portlet" version="0.2d"/>
+        <requires url="imsld" version="1.1d"/>
 
         <callbacks>
             <callback type="after-install"  proc="apm::imsld_portlet::after_install"/>
             <callback type="before-uninstall"  proc="apm::imsld_portlet::before_uninstall"/>
         </callbacks>
         <parameters>
+            <parameter datatype="number"  min_n_values="1"  max_n_values="1"  name="ConditionsRecursionLimit"  default="100" description="When evaluating the conditions of the UoL there can bee infinite loops. A counter is used to avoid crashing the server. If after ConditionsRecursionLimit times of evaluating the conditions (for a single event) the player is not in a stable state, an error is thrown."/>
             <parameter datatype="number"  min_n_values="1"  max_n_values="1"  name="TimeLimitIntervalCheck"  default="0" description="Every TimeLimitIntervalCheck SECONDS the system will search for the activities (methods, plays, acts) whose time-limit has been elapsed and will mark them as finished 
 
 Leave this parameter in 0 if you don't want this feature enabled (the time-limit in the spec will be ignored)
