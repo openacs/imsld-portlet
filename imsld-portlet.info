@@ -7,12 +7,12 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
     
-    <version name="2.4.1b1" url="http://openacs.org/repository/download/apm/imsld-portlet-2.4.1b1.apm">
+    <version name="2.4.1" url="http://openacs.org/repository/download/apm/imsld-portlet-2.4.1.apm">
         <owner url="mailto:eperez@it.uc3m.es">Eduardo Pérez Ureta</owner>
-        <release-date>2008-09-16</release-date>
+        <release-date>2008-10-18</release-date>
         <maturity>0</maturity>
 
-        <provides url="imsld-portlet" version="2.4.1b1"/>
+        <provides url="imsld-portlet" version="2.4.1"/>
         <requires url="imsld" version="1.2d"/>
 
         <callbacks>
