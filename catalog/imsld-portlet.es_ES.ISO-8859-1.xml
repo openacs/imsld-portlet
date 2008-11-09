@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<message_catalog package_key="imsld-portlet" package_version="0.1d" locale="es_ES" charset="ISO-8859-1">
+<message_catalog package_key="imsld-portlet" locale="es_ES" charset="ISO-8859-1">
 
+  <msg key="imsld_add">Añadir un LD</msg>
+  <msg key="There_are_no_units-of-learning_for_this_course">No hay unidades de aprendizaje en este curso</msg>
   <msg key="units-of-learning_admin">Administración de Unidades de Aprendizaje</msg>
 </message_catalog>
