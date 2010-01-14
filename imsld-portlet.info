@@ -13,7 +13,7 @@
         <maturity>0</maturity>
 
         <provides url="imsld-portlet" version="2.5.0d1"/>
-        <requires url="imsld" version="1.2d"/>
+        <requires url="imsld" version="2.0"/>
 
         <callbacks>
             <callback type="after-install"  proc="apm::imsld_portlet::after_install"/>
